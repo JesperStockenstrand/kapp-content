@@ -26,7 +26,7 @@
 
     <h2>What we store, and why</h2>
     <ul>
-      <li><strong>An account ID.</strong> As a guest you get an anonymous ID; if you sign in with Apple or Google, our sign-in provider (Firebase Authentication) also holds the email address and name that Apple or Google share with it. We don't show your email or name to anyone, and we don't store them in race data.</li>
+      <li><strong>An account ID.</strong> As a guest you get an anonymous ID; if you sign in with Apple or Google, our sign-in provider (Firebase Authentication) also holds your email address. We don't keep your name: we don't ask Apple for it, and the name Google shares is removed from your account right after you sign in. We don't show your email to anyone, and we don't store it in race data.</li>
       <li><strong>Race data:</strong> which race you joined (distance, terrain, start time), your distance and pace during it, your finish time, the flag you chose to show (a country code, or none), and the pace range you picked at setup.</li>
       <li><strong>Notifications:</strong> if you allow them, a push token for your device and which notifications you want (the 15-minute reminder, the race start). With both turned off, no token is sent.</li>
       <li><strong>Fair play:</strong> whether your phone reported a fake-location app during a race. Such a result doesn't count, and repeated cases are kept for review.</li>
